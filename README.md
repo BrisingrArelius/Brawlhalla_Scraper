@@ -15,7 +15,7 @@ Each run stores its output in a date‑stamped folder (e.g. `Data-22Jun/`) so no
 
 ```bash
 # clone & enter the repo
-git clone https://github.com/<you>/Brawlhalla_Scraper.git
+git clone https://github.com/BrisingrArelius/Brawlhalla_Scraper.git
 cd Brawlhalla_Scraper
 
 # create + activate a virtual environment
