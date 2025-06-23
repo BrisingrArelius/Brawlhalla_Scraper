@@ -95,11 +95,12 @@ Each script tries up to **3** times per page and updates the CSVs in‑place.
 
 ## 5️⃣  Plotting example
 
+```bash
 # one-liner: build a histogram for *every* CSV in a scrape folder
 python plot_folder_hist.py Data-22Jun              # default 25-Elo bins
 # custom bin width + show counts above each bar
 python plot_folder_hist.py Data-22Jun --bin 50 --counts
-
+```
 
 ---
 
