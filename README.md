@@ -95,13 +95,11 @@ Each script tries up to **3** times per page and updates the CSVs in‑place.
 
 ## 5️⃣  Plotting example
 
-After scraping you can visualise the distribution, e.g.:
+# one-liner: build a histogram for *every* CSV in a scrape folder
+python plot_folder_hist.py Data-22Jun              # default 25-Elo bins
+# custom bin width + show counts above each bar
+python plot_folder_hist.py Data-22Jun --bin 50 --counts
 
-```bash
-python plot_csv_hist.py Data-22Jun/peak_ratings_sea.csv
-```
-
-This is purely optional—feel free to plug the CSVs into Excel, Pandas, or anything else.
 
 ---
 
